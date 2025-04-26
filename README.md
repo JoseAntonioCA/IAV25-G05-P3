@@ -28,15 +28,16 @@ En esta ocasión, la práctica pide que implementemos comportamientos basados en
 En algunos enemigos se usará el sistema de máquina de estados para definir su comportamiento, y el jugador usará un sistema de comportamiento basado en árboles.
 
 ## Fantasmas
-En este juego están las gárgolas, que son estáticas y no cambian su posición. Pero luego están los fantasmas, que sí se mueven y persiguen al jugador.
-Basándonoes en el modelo de máquina de estados, tenemos 3 estados principales:
+En este juego están las gárgolas, que son estáticas y no cambian su posición. Pero luego están los fantasmas, que sí se mueven e investigan las estatuas de colores cuando las ven.
+Basándonoes en el modelo de máquina de estados, tenemos 2 estados principales:
 
-- Patrullar: Se dedica a deambular por una ruta, comprobando si encuentra al jugador.
+- Patrullar: Se dedica a deambular por una ruta, comprobando si encuentra al jugador o alguna estatua.
 - Investigar: Comprueba si hay algo sospechoso en una estatua.
-- Perseguir: Trata de atrapar al jugador una vez lo ha visto.
+
+En ambos casos, si ve al jugador lo atrapa.
 
 Adjuntamos una imagen esquematizada sobre su comportamiento, donde se explica brevemente la transición entre estados: 
-![alt text](image.png)
+![alt text](<Captura de pantalla 2025-04-26 175819.png>)
 
 ## John Lemon
 
