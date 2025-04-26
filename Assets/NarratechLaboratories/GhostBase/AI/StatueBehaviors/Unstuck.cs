@@ -3,22 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using BehaviorDesigner.Runtime;
 using BehaviorDesigner.Runtime.Tasks;
+using UnityEngine.AI;
 
 
 public class Unstuck : Action
 {
     public SharedGameObject totem;
 
+    private NavMeshAgent navMeshAgent; 
+
     private Vector3 target;
 
     public override void OnAwake()
     {
         target = totem.Value.transform.position;
+        navMeshAgent = transform.gameObject.GetComponent<NavMeshAgent>();
     }
 
     public override void OnStart()
     {
-        //Decirle al pathfinding adonde tiene que ir o algo
+        navMeshAgent.SetDestination(target);
     }
 
     public override TaskStatus OnUpdate()

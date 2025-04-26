@@ -3,11 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using BehaviorDesigner.Runtime;
 using BehaviorDesigner.Runtime.Tasks;
+using UnityEngine.AI;
 
 public class PushToObjective : Action
 {
     public float speed = 0.1f;
     public SharedVector3 objective;
+
+    private NavMeshAgent navMeshAgent;
+
+    public override void OnAwake()
+    {
+        navMeshAgent = transform.gameObject.GetComponent<NavMeshAgent>();
+    }
+
+    public override void OnStart()
+    {
+        navMeshAgent.SetDestination(objective.Value);
+    }
 
     public override TaskStatus OnUpdate()
     {
@@ -15,8 +28,6 @@ public class PushToObjective : Action
         {
             return TaskStatus.Success;
         }
-        //Habria que cambiar el movimiento para hacerlo con pathfinding supongo?? 
-        transform.position = Vector3.MoveTowards(transform.position, objective.Value, speed * Time.deltaTime);
         return TaskStatus.Running;
     }
 }

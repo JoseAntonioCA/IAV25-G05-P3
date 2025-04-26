@@ -154,6 +154,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 894613339}
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!1 &14073553 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1569245711601021121, guid: 8095b6b749f6283408e2640ea4b44441,
+    type: 3}
+  m_PrefabInstance: {fileID: 411440043}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &14073559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14073553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e39dbcd47b55c7409da2a16275ec5d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 11.6, y: 0, z: 1.3}
+  - {x: 8, y: 0, z: 1.3}
+  - {x: 7.7, y: 0, z: 4.8}
+  - {x: 6.5, y: 0, z: 6.3}
+  - {x: 5.9, y: 0, z: 11.7}
+  - {x: 3.2, y: 0, z: 11.5}
+  - {x: 3, y: 0, z: 9}
+  - {x: 0.7, y: 0, z: 9}
 --- !u!1 &17348784 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 186551186259904931, guid: 549c69af39b84624b8a053537c407def,
@@ -1413,7 +1440,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1569245711601021121, guid: 8095b6b749f6283408e2640ea4b44441,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 14073559}
   m_SourcePrefab: {fileID: 100100000, guid: 8095b6b749f6283408e2640ea4b44441, type: 3}
 --- !u!1 &436607265 stripped
 GameObject:
@@ -2449,7 +2480,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1569245711601021121, guid: 8095b6b749f6283408e2640ea4b44441,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1886007797}
   m_SourcePrefab: {fileID: 100100000, guid: 8095b6b749f6283408e2640ea4b44441, type: 3}
 --- !u!1 &1065193886
 GameObject:
@@ -3904,6 +3939,31 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 79ec22444806b2e4dafc0b51ad057fa1, type: 3}
+--- !u!1 &1886007791 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1569245711601021121, guid: 8095b6b749f6283408e2640ea4b44441,
+    type: 3}
+  m_PrefabInstance: {fileID: 1060590859}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1886007797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886007791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e39dbcd47b55c7409da2a16275ec5d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: -1.5, y: 0, z: -6}
+  - {x: -1.6, y: 0, z: -0.5}
+  - {x: -2, y: 0, z: 5.3}
+  - {x: -5.7, y: 0, z: 5}
+  - {x: -5.7, y: 0, z: 1.7}
+  - {x: -10.5, y: 0, z: 0}
 --- !u!1 &1944691972
 GameObject:
   m_ObjectHideFlags: 0
