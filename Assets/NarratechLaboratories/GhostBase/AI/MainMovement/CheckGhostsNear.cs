@@ -6,18 +6,33 @@ using BehaviorDesigner.Runtime.Tasks;
 
 public class CheckGhostsNear : Conditional
 {
-    public SharedGameObject ghost;
-
-    public override void OnAwake()
-    {
-
-    }
+    public SharedVector3 ghost;
+    public SharedVector3 ghost1;
+    public SharedVector3 ghost2;
+    public SharedVector3 ghost3;        
+        
 
     public override TaskStatus OnUpdate()
-    {
-        Vector3 totPos = ghost.Value.transform.position;
-        if (Physics.Raycast(totPos, 2 * totPos - transform.position, 5, ~6))
+    {        
+        bool choque = false;
+        if (Vector3.SqrMagnitude(GetComponent<Transform>().position - ghost.Value) < 10f)
         {
+            choque = true;
+        }
+        if(Vector3.SqrMagnitude(GetComponent<Transform>().position - ghost1.Value) < 10f)
+        {
+            choque = true;
+        }
+        if (Vector3.SqrMagnitude(GetComponent<Transform>().position - ghost2.Value) < 10f)
+        {
+            choque = true;
+        }
+        if (Vector3.SqrMagnitude(GetComponent<Transform>().position - ghost3.Value) < 10f)
+        {
+            choque = true;
+        }
+        if (choque)
+        {            
             return TaskStatus.Success;
         }
         return TaskStatus.Failure;
