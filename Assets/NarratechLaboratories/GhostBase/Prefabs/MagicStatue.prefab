@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4572611729374697946}
   - component: {fileID: 2730778723246317180}
   - component: {fileID: 1430237177644013094}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 2235273807362997302}
   - component: {fileID: 3646845855289047403}
   - component: {fileID: 3036389029637828301}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MagicStatue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
