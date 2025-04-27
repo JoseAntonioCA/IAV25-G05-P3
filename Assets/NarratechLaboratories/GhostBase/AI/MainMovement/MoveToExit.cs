@@ -8,16 +8,19 @@ using UnityEngine.AI;
 public class MoveToExit : Action
 {
     public SharedVector3 exit;
-    private NavMeshAgent navMeshAgent;
+    private NavMeshAgent navMeshAgent; 
+    Animator m_Animator;
 
     public override void OnAwake()
     {
         navMeshAgent = transform.gameObject.GetComponent<NavMeshAgent>();
+        m_Animator = GetComponent<Animator>();
     }
 
     public override TaskStatus OnUpdate()
     {
         navMeshAgent.SetDestination(exit.Value);
+        m_Animator.SetBool("IsWalking", true);
         return TaskStatus.Success;
         /*
         //        navMeshAgent.SetDestination(transform.position);
