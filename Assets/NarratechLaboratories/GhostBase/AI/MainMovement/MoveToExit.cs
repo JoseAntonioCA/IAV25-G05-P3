@@ -15,17 +15,16 @@ public class MoveToExit : Action
         navMeshAgent = transform.gameObject.GetComponent<NavMeshAgent>();
     }
 
-    public override void OnStart()
-    {
-        navMeshAgent.SetDestination(exit.Value);
-    }
-
     public override TaskStatus OnUpdate()
     {
+        navMeshAgent.SetDestination(exit.Value);
+        return TaskStatus.Success;
+        /*
+        //        navMeshAgent.SetDestination(transform.position);
         if (Vector3.SqrMagnitude(transform.position - exit.Value) < 0.01f)
-        {
+        {            
             return TaskStatus.Success;
-        }
-        return TaskStatus.Running;
+        }        
+        return TaskStatus.Running;*/
     }
 }
