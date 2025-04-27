@@ -959,12 +959,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 894613339}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &251242564 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8038108750564668487, guid: 39d0626ce76d1884da050e0e509a5540,
-    type: 3}
-  m_PrefabInstance: {fileID: 1513577154286143051}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &254697820 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6199127110365035078, guid: 39d0626ce76d1884da050e0e509a5540,
@@ -1938,12 +1932,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
---- !u!1 &775619830 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5075534488604402034, guid: abeb186619cc7e6419cb81e1e4dfa162,
-    type: 3}
-  m_PrefabInstance: {fileID: 533664680}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &805581756
 GameObject:
   m_ObjectHideFlags: 0
@@ -2655,12 +2643,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
---- !u!1 &1115678991 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5075534488604402034, guid: abeb186619cc7e6419cb81e1e4dfa162,
-    type: 3}
-  m_PrefabInstance: {fileID: 1845671765}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1186965917
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2754,12 +2736,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39d0626ce76d1884da050e0e509a5540, type: 3}
---- !u!1 &1262110282 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8038108750564668487, guid: 39d0626ce76d1884da050e0e509a5540,
-    type: 3}
-  m_PrefabInstance: {fileID: 50719414}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1277040776 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 186551185459921408, guid: 549c69af39b84624b8a053537c407def,
@@ -3483,12 +3459,6 @@ Transform:
   - {fileID: 258812316}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 48.708004, y: 0, z: 0}
---- !u!1 &1585757965 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5075534488604402034, guid: abeb186619cc7e6419cb81e1e4dfa162,
-    type: 3}
-  m_PrefabInstance: {fileID: 6136966654407605910}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1598011974 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1569245711601021121, guid: 8095b6b749f6283408e2640ea4b44441,
@@ -3600,12 +3570,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
---- !u!1 &1680284167 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5075534488604402034, guid: abeb186619cc7e6419cb81e1e4dfa162,
-    type: 3}
-  m_PrefabInstance: {fileID: 1420777414}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1698357857 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3734704274410392834, guid: 549c69af39b84624b8a053537c407def,
@@ -3843,12 +3807,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 894613339}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1836684363 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8038108750564668487, guid: 39d0626ce76d1884da050e0e509a5540,
-    type: 3}
-  m_PrefabInstance: {fileID: 530846513}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1845671765
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4095,12 +4053,6 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
---- !u!1 &1999668003 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8038108750564668487, guid: 39d0626ce76d1884da050e0e509a5540,
-    type: 3}
-  m_PrefabInstance: {fileID: 1407275730}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2010085806
 GameObject:
   m_ObjectHideFlags: 0
@@ -4221,12 +4173,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
---- !u!1 &2097127428 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8038108750564668487, guid: 39d0626ce76d1884da050e0e509a5540,
-    type: 3}
-  m_PrefabInstance: {fileID: 1186965917}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2097168585 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 186551185612012994, guid: 549c69af39b84624b8a053537c407def,
@@ -4950,12 +4896,12 @@ PrefabInstance:
     - target: {fileID: -5246322750640800662, guid: e58a8494f35e17f45ba5bbffdfb92517,
         type: 3}
       propertyPath: mBehaviorSource.mTaskData.JSONSerialization
-      value: '{"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":"Destiny","IsShared":true,"Vector3mValue":"(0,0,0)"},{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"Color","IsShared":true,"Int32mValue":0},{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"Totem","IsShared":true,"GameObjectmValue":0},{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"ghost","IsShared":true,"GameObjectmValue":1},{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"ghost2","IsShared":true,"GameObjectmValue":2},{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"ghost1","IsShared":true,"GameObjectmValue":3},{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"ghost3","IsShared":true,"GameObjectmValue":4},{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"exit","IsShared":true,"TransformmValue":5}]}'
+      value: '{"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":"Destiny","IsShared":true,"Vector3mValue":"(0,0,0)"},{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"Color","IsShared":true,"Int32mValue":0},{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"Totem","IsShared":true,"GameObjectmValue":0},{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"exit","IsShared":true,"TransformmValue":1},{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"ghost","IsShared":true,"TransformmValue":2},{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"ghost1","IsShared":true,"TransformmValue":3},{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"ghost2","IsShared":true,"TransformmValue":4},{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"ghost3","IsShared":true,"TransformmValue":5},{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"gargola","IsShared":true,"TransformmValue":6},{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"gargola1","IsShared":true,"TransformmValue":7},{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"gargola2","IsShared":true,"TransformmValue":8},{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"gargola3","IsShared":true,"TransformmValue":9},{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"gargola4","IsShared":true,"TransformmValue":10}]}'
       objectReference: {fileID: 0}
     - target: {fileID: -5246322750640800662, guid: e58a8494f35e17f45ba5bbffdfb92517,
         type: 3}
       propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.size
-      value: 6
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: -5246322750640800662, guid: e58a8494f35e17f45ba5bbffdfb92517,
         type: 3}
@@ -4966,27 +4912,52 @@ PrefabInstance:
         type: 3}
       propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[1]
       value: 
-      objectReference: {fileID: 1585757965}
+      objectReference: {fileID: 238279956}
     - target: {fileID: -5246322750640800662, guid: e58a8494f35e17f45ba5bbffdfb92517,
         type: 3}
       propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[2]
       value: 
-      objectReference: {fileID: 1115678991}
+      objectReference: {fileID: 6925745739663848697}
     - target: {fileID: -5246322750640800662, guid: e58a8494f35e17f45ba5bbffdfb92517,
         type: 3}
       propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[3]
       value: 
-      objectReference: {fileID: 775619830}
+      objectReference: {fileID: 1845671766}
     - target: {fileID: -5246322750640800662, guid: e58a8494f35e17f45ba5bbffdfb92517,
         type: 3}
       propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[4]
       value: 
-      objectReference: {fileID: 1680284167}
+      objectReference: {fileID: 533664681}
     - target: {fileID: -5246322750640800662, guid: e58a8494f35e17f45ba5bbffdfb92517,
         type: 3}
       propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[5]
       value: 
-      objectReference: {fileID: 238279956}
+      objectReference: {fileID: 1420777415}
+    - target: {fileID: -5246322750640800662, guid: e58a8494f35e17f45ba5bbffdfb92517,
+        type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[6]
+      value: 
+      objectReference: {fileID: 6199127110365035078}
+    - target: {fileID: -5246322750640800662, guid: e58a8494f35e17f45ba5bbffdfb92517,
+        type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[7]
+      value: 
+      objectReference: {fileID: 50719415}
+    - target: {fileID: -5246322750640800662, guid: e58a8494f35e17f45ba5bbffdfb92517,
+        type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[8]
+      value: 
+      objectReference: {fileID: 1407275731}
+    - target: {fileID: -5246322750640800662, guid: e58a8494f35e17f45ba5bbffdfb92517,
+        type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[9]
+      value: 
+      objectReference: {fileID: 55882184}
+    - target: {fileID: -5246322750640800662, guid: e58a8494f35e17f45ba5bbffdfb92517,
+        type: 3}
+      propertyPath: mBehaviorSource.mTaskData.fieldSerializationData.unityObjects.Array.data[10]
+      value: 
+      objectReference: {fileID: 254697820}
     - target: {fileID: 142462114116109389, guid: e58a8494f35e17f45ba5bbffdfb92517,
         type: 3}
       propertyPath: MoveAction.m_Id
@@ -5075,10 +5046,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 6077229646317852088}
-    - targetCorrespondingSourceObject: {fileID: 6077229646317852079, guid: e58a8494f35e17f45ba5bbffdfb92517,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6077229646317852089}
   m_SourcePrefab: {fileID: 100100000, guid: e58a8494f35e17f45ba5bbffdfb92517, type: 3}
 --- !u!195 &5075534488604402036 stripped
 NavMeshAgent:
@@ -5311,29 +5278,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &6077229646317852089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6077229646317852079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 922b7a8a7ddb84b48ba6ae0d9fb21737, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fantasmas:
-  - {fileID: 1585757965}
-  - {fileID: 1115678991}
-  - {fileID: 775619830}
-  - {fileID: 1680284167}
-  gargolas:
-  - {fileID: 251242564}
-  - {fileID: 1262110282}
-  - {fileID: 1999668003}
-  - {fileID: 1836684363}
-  - {fileID: 2097127428}
 --- !u!1001 &6136966654407605910
 PrefabInstance:
   m_ObjectHideFlags: 0
