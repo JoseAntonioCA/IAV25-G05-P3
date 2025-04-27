@@ -24,18 +24,19 @@ public class CheckIfScape : Conditional
     // Update is called once per frame
     public override TaskStatus OnUpdate()
     {
-        navMeshAgent.SetDestination(hidePoint.position);
-
-        bool hide = false;
-        int i = 0;
-        while(!hide && i < hidePoints.Value.Count)
-        { 
-            //esto es como un if
-            hide = Vector3.SqrMagnitude(transform.position - hidePoints.Value[i].position) < 0.01f;
-
-            i++;
+        float minDistance = 0;
+        foreach(Transform tr in hidePoints.Value)
+        {
+            float magnitud = Vector3.SqrMagnitude(GetComponent<Transform>().position - tr.position);
+            if (magnitud < minDistance)
+            {
+                hidePoint = tr;
+                minDistance = magnitud;            
+            }
         }
 
-        return hide ? TaskStatus.Success:TaskStatus.Running;
+        navMeshAgent.SetDestination(hidePoint.position);
+
+        return Vector3.SqrMagnitude(transform.position - hidePoint.position) < 10f ? TaskStatus.Success:TaskStatus.Running;
     }
 }
