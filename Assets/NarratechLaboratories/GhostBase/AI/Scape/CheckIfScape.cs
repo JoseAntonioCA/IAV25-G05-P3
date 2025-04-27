@@ -8,7 +8,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class CheckIfScape : Conditional
+public class CheckIfScape : Action
 {
 
     SharedTransformList hidePoints;
